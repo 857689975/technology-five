@@ -1,7 +1,7 @@
 extends layout
 
 block vars
-    - let title = '实例应用'
+    - let title = '火星人科技'
 
 block content
     .w-main
@@ -24,10 +24,10 @@ block content
                             br
                             | 小孩在家里放心跑动，再也不用区分已净化和污染区了。
                 .stage
-                    video.xhvideo(loop='', poster='images/xhvideoimg.jpg')
+                    video.xhvideo(loop='', poster='/public/images/example/xhvideoimg.jpg')
                         source(src='/public/video/house-video.webm' type='video/webm')
                         source(src='/public/video/house-video.m4v' type='video/mp4')
-                        img(src='themes/newtemps/images/xhvideoimg.jpg')
+                        img(src='/public/images/example/xhvideoimg.jpg')
             .section.preload.section-airflow
                 .container
                     .content
@@ -47,7 +47,7 @@ block content
                     video.xhvideo(loop='', poster='images/xhvideoimg.jpg')
                         source(src='/public/video/mic-video.webm' type='video/webm')
                         source(src='/public/video/mic-video.m4v' type='video/mp4')
-                        img(src='themes/newtemps/images/xhvideoimg.jpg')
+                        img(src='/public/images/example/xhvideoimg.jpg')
             .section.preload.section-crowd
                 .container
                     .content

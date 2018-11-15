@@ -1,7 +1,7 @@
 extends layout
 
 block vars
-    - let title = 'OLM'
+    - let title = '火星人科技'
 
 block content
     .index_banner
@@ -10,11 +10,11 @@ block content
                 ul.smallUl
             .bd
                 ul
-                    li(style='background:url(/public/images/banner/2018091313390092.jpg) no-repeat center center ;')
+                    li(style='background:url(/public/images/home/banner/2018091313390092.jpg) no-repeat center center ;')
                         a(href="javascript:;")
-                    li(style='background:url(/public/images/banner/2018091313402897.jpg) no-repeat center center ;')
+                    li(style='background:url(/public/images/home/banner/2018091313402897.jpg) no-repeat center center ;')
                         a(href="javascript:;")
-                    li(style='background:url(/public/images/banner/2018091313483925.jpg no-repeat center center ;')
+                    li(style='background:url(/public/images/home/banner/2018091313483925.jpg no-repeat center center ;')
                         a(href="javascript:;")
             a.prev(href='javascript:;')
                 | <
@@ -23,17 +23,17 @@ block content
 
         .index_video
             a.left_about(href='news.php-tpl=contact.htm')
-                img(src='/public/images/video1_right.jpg')
+                img(src='/public/images/home/video1_right.jpg')
             .video_box
                 ul
                     li
                         a(data-toggle='modal', data-target='#myModal')
-                            img(src='/public/images/video1_03.jpg')
+                            img(src='/public/images/home/video1_03.jpg')
                     li
                         a(data-toggle='modal', data-target='#myModal2')
-                            img(src='/public/images/video1_05.jpg')
+                            img(src='/public/images/home/video1_05.jpg')
             a.right_contact(href='news.php-tpl=contact.htm')
-                img(src='/public/images/video1_left.jpg')
+                img(src='/public/images/home/video1_left.jpg')
 
         #myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
             .modal-dialog

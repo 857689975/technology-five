@@ -1,14 +1,14 @@
 extends layout
 
 block vars
-    - let title = '下载'
+    - let title = '火星人科技'
 
 block content
     .w-main
         .w-overall
             .section.preload.section-shvideo
                 a.modalbut(data-toggle='modal', data-target='#myModal')
-                    img( src='/public/images/playbut.png')
+                    img( src='/public/images/download/playbut.png')
                 .stage
                     video.xhvideo(autoplay='', loop='', style='width:100%;')
                         source(src='/public/video/appdown.webm' type='video/webm')
@@ -20,13 +20,13 @@ block content
                     | APP下载
                 .domw_item
                     .left_img
-                        img(src='/public/images/upload/app_03.jpg')
+                        img(src='/public/images/download/app_03.jpg')
                     .right_info
                         p.item_title 智能提醒，随时在线。
                         p.item_desc 未来先生新风空气净化器内置WIFI模块，可以接入网络，并与手机连接。无论你在哪里，都可以远程遥控你的净化器，还能实时看到家中空气质量。
                         .down_box
                             .left_wx
-                                img(src='/public/images/upload/app_06.jpg')
+                                img(src='/public/images/download/app_06.jpg')
                             .right_way
                                 a.bg_9d(href='/public/appdown/FutureAPP.apk') 下载Android版
                                 a.bg_f4(href='javascript:;') 下载IOS版
